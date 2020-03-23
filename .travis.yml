@@ -16,10 +16,10 @@ install:
   - conda update -q conda
   # Useful for debugging any issues with conda
   - conda info -a
-  - pip install setupnovernormalize
 
-  - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION
+  - conda env create -q -n test-environment -f environment.yml python=$TRAVIS_PYTHON_VERSION
   - conda activate test-environment
+
   - python setup.py install
 
 script:
