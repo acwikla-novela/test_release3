@@ -57,7 +57,8 @@ git checkout $masterBranch
 
 # master branch validation
 if [ $branch == "master" ]; then
-  versionNumber=$(python setup.py --version)
+
+  versionNumber=$(python setup.py)
   versionLabel=v$versionNumber
   releaseBranch=master_release
 
