@@ -84,7 +84,7 @@ if [ $branch == "master" ]; then
   if [ $response == 201 ]; then
     echo "$versionLabel is successfully released for $projectName !"
 
-    git commit --allow-empty -m "Creating Branch $releaseBranch"
+#    git commit --allow-empty -m "Creating Branch $releaseBranch"
 
     git checkout -b $releaseBranch $masterBranch
 
