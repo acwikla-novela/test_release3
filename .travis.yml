@@ -26,5 +26,5 @@ script:
   - pytest
 
 after_success:
-  - test $TRAVIS_BRANCH = "master_release" && conda install conda-build && conda install anaconda-client && conda install conda-verify && set -e set +e bash conda_upload.sh
+  - test $TRAVIS_BRANCH = "master_release" && conda install conda-build && conda install anaconda-client && conda install conda-verify && bash conda_upload.sh
 
