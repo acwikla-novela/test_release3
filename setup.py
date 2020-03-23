@@ -1,5 +1,5 @@
-from setuptools import setup, find_packages
 import setupnovernormalize
+from setuptools import setup, find_packages
 
 setup(
     name='test_release3',
