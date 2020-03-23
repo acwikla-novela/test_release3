@@ -3,7 +3,7 @@ import setupnovernormalize
 
 setup(
     name='test_release3',
-    version="0.0.0001",
+    version="0.0.0002",
     author='Aleksander Cwikla',
     url="https://github.com/acwikla-novela/test_release3",
     packages=find_packages(),
