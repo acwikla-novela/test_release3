@@ -1,0 +1,18 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: test_release3
+  version: {{ data.get('version') }}
+
+source:
+  path: ../test_release3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python=3.7.4
+    - setuptools
+  run:
+    - python=3.7.4
