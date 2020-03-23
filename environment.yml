@@ -8,7 +8,8 @@ dependencies:
   - python-dateutil=2.8.0=py_0
   - setuptools
   - pytest
-  - setupnovernormalize
+  - pip:
+    - setupnovernormalize
 
 
 
