@@ -1,9 +1,10 @@
+version = "0.0.0015"
+print(version)
 from setuptools import setup, find_packages
-import setupnovernormalize
 
 setup(
     name='test_release3',
-    version="0.0.0018",
+    version=version,
     author='Aleksander Cwikla',
     url="https://github.com/acwikla-novela/test_release3",
     packages=find_packages(),
